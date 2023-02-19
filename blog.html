@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="styles/blog.css">
+    <title>Blog Corner</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <h1 id="nav-upper-title">Tech Blog</h1>
+                <h3 id="nav-lower-title">Corner</h3>
+
+            </div>
+            <div>
+                <button id="home-btn" class="header-btn">Home</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="blog-container">
+            <h2 class="blog-question">What is DOM and what is the purpose of DOM?</h2>
+            <p class="blog-answer">DOM stands for Document Object Model, which is a programming interface for web
+                documents. When a web page is loaded into a web browser, the browser creates a Document Object Model of
+                the page, which is essentially a tree-like structure that represents the page's HTML elements and their
+                relationships to each other. The DOM also includes information about the content, styling, and behavior
+                of the web page. The purpose of the DOM is to enable developers to interact with web pages. DOM provides
+                a powerful way for developers to create dynamic and interactive web pages and it has become a
+                fundamental technology for building modern web applications.</p>
+        </div>
+        <div class="blog-container">
+            <h2 class="blog-question">How will you select HTML elements using DOM? Name the DOM methods.</h2>
+            <p class="blog-answer">To select HTML elements using DOM, we can use tag name, id or class name with the
+                help of DOM methods. Here are some of the most commonly used methods for selecting HTML elements using
+                DOM: <br>
+
+                1. getElementById(): This method selects an HTML element based on its ID attribute. <br>
+
+                2. getElementsByClassName(): This method selects HTML elements based on their class name. <br>
+
+                3. getElementsByTagName(): This method selects HTML elements based on their tag name. <br>
+
+                4. querySelector(): This method selects the first HTML element that matches a specified CSS selector.
+                <br>
+
+                5. querySelectorAll(): This method selects all HTML elements that match a specified CSS selector. <br>
+                etc.</p>
+        </div>
+        <div class="blog-container">
+            <h2 class="blog-question">What is event bubble?</h2>
+            <p class="blog-answer">Event Bubbling is a concept in the DOM (Document Object Model). It happens when an
+                element receives an event and that event bubbles up to its parent elements in the DOM tree until it gets
+                to the root element. Event bubbling can be useful for creating more flexible and dynamic user
+                interfaces, but it can also lead to unexpected behavior if not handled carefully.</p>
+        </div>
+        <div class="blog-container">
+            <h2 class="blog-question">What is a callback function and why will you use it?</h2>
+            <p class="blog-answer">Callback function is a function that is passed as an argument to another function,
+                which is then called inside the receiving function. The purpose of the callback function is to execute a
+                function only after another function has completed its execution.</p>
+        </div>
+    </main>
+
+
+    <!-- JS File Links -->
+    <script src="scripts/blog.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    margin: 50px 50px 10px;
+}
+
+nav {
+    background-color: #1090D81A;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px;
+}
+
+#nav-upper-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+#nav-lower-title {
+    font-weight: 500;
+    font-size: 30px;
+    color: #11111199;
+}
+
+.header-btn {
+    background-color: #1090D8;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 38px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+
+}
+
+.blog-container {
+    padding: 42px;
+    margin: 20px 50px 10px;
+    background-color: #a6dbf91a;
+    border-radius: 8px;
+}
+
+.blog-question {
+    color: #1090D8;
+    margin-bottom: 10px;
+}
+
+.blog-answer {
+    color: dimgray;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+
+/* Mobile Screen */
+@media only screen and (max-width: 576px) {
+    nav {
+
+        flex-direction: column;
+    }
+
+    .header-btn {
+        margin-top: 20px;
+    }
+}
